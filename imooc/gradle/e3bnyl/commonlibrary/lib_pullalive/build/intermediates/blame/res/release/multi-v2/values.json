@@ -1,0 +1,48 @@
+{
+    "logs": [
+        {
+            "outputFile": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\lib_pullalive\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+            "map": [
+                {
+                    "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\lib_pullalive\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "2,2",
+                        "startOffsets": "14,63",
+                        "endColumns": "48,58",
+                        "endOffsets": "60,119"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,60",
+                        "endOffsets": "101,162"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\lib_pullalive\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+            "map": [
+                {
+                    "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\lib_pullalive\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1,2",
+                        "startColumns": "2,2",
+                        "startOffsets": "14,63",
+                        "endColumns": "48,58",
+                        "endOffsets": "60,119"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,106",
+                        "endColumns": "50,60",
+                        "endOffsets": "101,162"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+<releases>
+    <release>
+        <versionCode>300</versionCode>
+        <versionName>3.0.0</versionName>
+        <versionInfo>vvvvvvvvvvvvvvvvvvvvvvvvvv</versionInfo>
+    </release>
+    <release>
+        <versionCode>200</versionCode>
+        <versionName>2.0.0</versionName>
+        <versionInfo>vvvvvvvvvvvvvvvvvvvvvvvvvv</versionInfo>
+    </release>
+    <release>
+        <versionCode>100</versionCode>
+        <versionName>1.0.0</versionName>
+        <versionInfo>vvvvvvvvvvvvvvvvvvvvvvvvvv</versionInfo>
+    </release>
+
+
+<release>
+  <versionCode>2000</versionCode>
+  <versionName>1.0.0</versionName>
+  <versionInfo>App的第2个版本，上线了一些最基础核心的功能.</versionInfo>
+</release>
+
+<release>
+  <versionCode>2000</versionCode>
+  <versionName>1.0.0</versionName>
+  <versionInfo>App的第2个版本，上线了一些最基础核心的功能.</versionInfo>
+</release>
+</releases>

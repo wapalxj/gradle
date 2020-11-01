@@ -1,0 +1,3 @@
+# Referenced at G:\GIT\gradle\imooc\gradle\testgradle\Test\build\intermediates\manifests\full\debug\AndroidManifest.xml:14
+-keep class com.imooc.viewpagertest.application.TestApplication { <init>(...); }
+

@@ -1,0 +1,95 @@
+import groovy.xml.MarkupBuilder
+
+apply plugin: 'war'
+//apply plugin:'com.gradle.plugin'
+
+//apply plugin:'com.vero.plugin'
+
+apply from:this.file{'releasesinfo.gradle'}
+
+
+
+dependencies {
+    compile project(":repository")
+}
+
+//task
+task taskX {
+    doLast {
+        println 'taskX'
+    }
+}
+
+//执行
+taskX.execute()
+
+task taskY {
+    doLast {
+        println 'taskY'
+    }
+}
+
+
+task lib1 << {
+    println 'lib1'
+}
+
+task lib2 << {
+    println 'lib2'
+}
+
+task nolib << {
+    println 'nolib'
+}
+
+task taskZ {
+    dependsOn this.tasks.findAll {
+        task ->
+            println task.name
+            //依赖所有'lib'开头的task
+            return task.name.startsWith('lib')
+    }
+    doLast {
+        println 'taskZ'
+    }
+}
+
+//或者调用dependsOn方法
+//taskZ.dependsOn(taskX,taskY)
+
+
+/**
+ * task输入输出
+ *
+ */
+task testTask{
+    dependsOn readTask,writeTask
+    doLast {
+        println'输入输出任务结束'
+    }
+}
+
+/**
+ * 挂接TASK
+ * 执行顺序的其他指定方式
+ */
+
+task taskXX {
+    doLast {
+        println '----------taskXX'
+    }
+}
+
+task taskYY {
+    mustRunAfter taskXX
+    doLast {
+        println '----------taskYY'
+    }
+}
+
+task taskZZ {
+    mustRunAfter taskYY
+    doLast {
+        println '----------taskZZ'
+    }
+}

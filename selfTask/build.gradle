@@ -1,0 +1,64 @@
+plugins {
+    id 'java'
+}
+
+group 'com.vero.gradle'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+//    maven {//使用自己搭建的maven私服
+//        url ''
+//    }
+//    mavenLocal()//本地仓库
+    mavenCentral()
+}
+
+//configurations.all {
+//    resolutionStrategy{
+//        failOnVersionConflict()
+//        force 'org.slf4j:slf4j-api:1.7.22'//强制制定一个版本
+//    }
+//}
+
+dependencies {
+    compile ('org.hibernate:hibernate-core:3.6.3.Final'){
+//        exclude group: 'org.slf4j',module:'slf4j-api'//排除传递性依赖
+    }
+//    compile 'org.hibernate:hibernate-core:3.6.3.Final'
+    compile 'ch.qos.logback:logback-classic:1.2.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+
+
+//动作闭包
+def createDir={
+    path->
+        File dir=new File(path)
+        if (!dir.exists()) {
+            dir.mkdirs()
+        }
+}
+
+//自定义创建java目录task
+task makeJavaDir(){
+    def paths=['src/main/java',
+               'src/main/resources',
+               'src/test/java',
+               'src/test/resources']
+    doFirst{//动作代码
+        paths.forEach(createDir)
+    }
+}
+
+//自定义web java目录task
+task makeWebDir(){
+    dependsOn 'makeJavaDir'
+    def paths=['src/main/webapp',
+               'src/test/webapp']
+    doLast {//动作代码
+        paths.forEach(createDir)
+    }
+}
+

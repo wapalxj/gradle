@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\assets"/><source path="G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\build\generated\assets\shaders\release"/></dataSet><dataSet config="release"><source path="G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\release\assets"/></dataSet></merger>

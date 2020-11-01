@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+  //gralde.properties中定义的
+  compileSdkVersion  mCompileSdkVersion.toInteger()
+
+//  compileSdkVersion  rootProject.ext.android.compileSdkVersion
+
+
+  defaultConfig {
+    applicationId "com.imooc.viewpagertest"
+    minSdkVersion 14
+    targetSdkVersion 23
+    versionCode 1
+    versionName '1.0.0'
+//    vectorDrawables.useSupportLibrary = true
+    multiDexEnabled rootProject.ext.android.multiDexEnabled //突破应用方法数65535的一个限制
+    javaCompileOptions { annotationProcessorOptions { includeCompileClasspath = true } }
+  }
+
+  buildTypes {
+    release {
+      minifyEnabled false
+      proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    }
+  }
+
+  lintOptions {
+    abortOnError false
+    lintConfig file("lint.xml")
+  }
+
+  //使AS知道.so文件的位置
+  sourceSets {
+    main {
+      jniLibs.srcDirs = ['libs']
+    }
+  }
+}
+
+dependencies {
+  configurations {
+    all*.exclude group: 'com.android.support', module: 'support-v13'
+    all*.exclude group: 'com.android.support', module: 'support-v4'
+  }
+  compile(rootProject.ext.dependence.libAutoScrollViewPager) {
+    exclude module: 'support-v4' //排除依赖
+    transitive false //禁止传递依赖
+  }
+
+  compile fileTree(dir: 'libs', include: ['*.jar'])
+  compile project(':vuandroidadsdk')
+  compile rootProject.ext.dependence.libAndroidDesign
+  compile rootProject.ext.dependence.libSupportV7
+
+  //retrofit基于okhttp的一个新的请求框架
+  compile 'com.squareup.retrofit2:retrofit:2.3.0'
+  compile 'com.squareup.retrofit2:converter-gson:2.3.0'
+  compile "com.squareup.retrofit2:adapter-rxjava:2.1.0"
+  //RxJava/android相关
+  compile 'io.reactivex:rxandroid:1.2.0'
+  compile 'io.reactivex:rxjava:1.1.5'
+  compile 'io.reactivex:rxjava-math:1.0.0'
+  compile 'com.jakewharton.rxbinding:rxbinding:0.2.0'
+  compile 'com.jakewharton.rxrelay:rxrelay:1.2.0'
+}
+
+//repositories {
+//  flatDir {
+//    dirs 'libs'
+//  }
+//}
+
+//文件copy
+task apkcopy {
+  doLast {
+    //gradle执行阶段
+    def sourcePath = this.buildDir.path + '\\outputs\\apk'
+    def destnationPath = 'G:\\myworks\\gradle\\'
+    def command = "xcopy /s ${sourcePath} ${destnationPath} "
+    exec {
+      try{
+        executable 'cmd'
+        args '/c',command
+      }catch (e){
+        println '1234'
+      }
+    }
+  }
+}
+
+task apkcopy2(type:Exec) {
+  def sourcePath = this.buildDir.path + '\\outputs\\apk'
+  def destnationPath = 'G:\\myworks\\gradle\\'
+  def command = "xcopy /s ${sourcePath} ${destnationPath} "
+  //on windows:
+  commandLine 'cmd', '/c', command
+}
+

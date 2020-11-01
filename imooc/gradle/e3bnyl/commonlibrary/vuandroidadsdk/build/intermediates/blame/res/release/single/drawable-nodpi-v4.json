@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\xadsdk_ad_loading.png",
+        "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\src\\main\\res\\drawable-nodpi\\xadsdk_ad_loading.png"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\xadsdk_ad_pause.png",
+        "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\src\\main\\res\\drawable-nodpi\\xadsdk_ad_pause.png"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\xadsdk_ad_play.png",
+        "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\src\\main\\res\\drawable-nodpi\\xadsdk_ad_play.png"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\drawable-nodpi-v4\\xadsdk_img_error.png",
+        "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\src\\main\\res\\drawable-nodpi\\xadsdk_img_error.png"
+    }
+]

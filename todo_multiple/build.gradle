@@ -1,0 +1,224 @@
+
+allprojects {
+//    plugins {
+//        id 'java'//java插件
+//    }
+    apply plugin:'java'//java插件
+    sourceCompatibility = 1.8
+
+    apply plugin: 'maven-publish'
+    publishing{
+        publications{
+            myPublish(MavenPublication){
+                from components.java//发布的是jar包
+            }
+        }
+        repositories {
+            //发布的仓库
+            maven{
+                name 'myRepo'
+                url ''
+            }
+        }
+
+    }
+
+
+}
+
+
+subprojects {
+    //配置阶段开始前的监听回调
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'ch.qos.logback:logback-classic:1.2.1'
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+    }
+}
+
+
+
+//配置阶段开始的监听回调beforeEvaluate
+
+//方式1
+//this.project.getSubprojects().each { sub ->
+//        sub.beforeEvaluate(new Action() {
+//            @Override
+//            void execute(Object project) {
+//                println "配置阶段开始 "+sub.path
+//            }
+//        })
+//}
+
+////配置阶段开始beforeEvaluate方式2
+//this.gradle.beforeProject{
+//    sub ->
+//        println "配置阶段开始 "+sub.path
+//}
+
+
+//配置阶段完毕的的监听回调afterEvaluate
+
+
+//方式1
+//this.project.getSubprojects().each { sub ->
+//        sub.afterEvaluate(new Action() {
+//            @Override
+//            void execute(Object project) {
+//                println "配置阶段完毕 "+sub.path
+//            }
+//        })
+//}
+//
+//方式2
+//this.gradle.afterProject{
+//    sub ->
+//        println "配置阶段完毕 "+sub.path
+//}
+
+
+//方式3
+//this.afterEvaluate {
+//    println '配置阶段完毕'
+//}
+//
+////gradle执行完毕的监听回调
+//this.gradle.buildFinished {
+//    println '执行完毕'
+//}
+
+
+
+//添加回调执行配置阶段
+//gradle.addProjectEvaluationListener(new ProjectEvaluationListener() {
+//    @Override
+//    void beforeEvaluate(Project project) {
+//        println "配置阶段开始 :"+project
+//    }
+//
+//    @Override
+//    void afterEvaluate(Project project, ProjectState state) {
+//        println "配置阶段完毕 :"+project
+//    }
+//})
+
+/**
+ * project相关API
+ */
+def getProjects(){
+    println '------------'
+    println 'Root Project'
+    println '------------'
+
+    //获取当前projec下t的所有project
+    getAllprojects().eachWithIndex{
+        Project project, int index ->
+            if (index == 0) {
+                println "Root Project :${project.name}"
+            }else {
+                println "---- Project :${project.name}"
+            }
+    }
+
+    //获取当前project下的所有子project
+    getSubprojects().eachWithIndex{
+        Project project, int index ->
+            println "sub Project :${project.name}"
+    }
+}
+//getProjects()
+
+
+
+
+//获取当前project下的父project
+def getParentProject(){
+    def name=getParent().name
+    println "parent Project :${name}"
+}
+
+//getParentProject()
+
+
+//获取当前工程的root project
+def getRootPro(){
+    def name=getRootProject().name
+    println "root Project :${name}\n"
+}
+
+//getRootPro()
+
+
+
+
+
+//通过路径获取某个子project--获取model
+//project('model') {
+//    Project project ->
+//        println project.name
+//}
+
+
+//文件API
+//println "root    path  is : "+getRootDir().absolutePath
+//println "build   path  is : "+getBuildDir().absolutePath
+//println "project path  is : "+getProjectDir().absolutePath
+
+
+//文件定位API
+def getContent(String path){
+    try{
+        def file=file{path}
+        return file.text//文件内容
+    }catch (GradleException e){
+        e.printStackTrace()
+    }
+}
+//println getContent("settings.gradle")
+
+
+
+//依赖相关API
+buildscript{
+    ScriptHandler scriptHandler->
+        //配置工程仓库地址
+        scriptHandler.repositories {
+            RepositoryHandler repositoryHandler->
+                repositoryHandler.jcenter()
+                repositoryHandler.mavenCentral()
+                repositoryHandler.mavenLocal()
+                repositoryHandler.maven {
+//                    MavenArtifactRepository mavenArtifactRepository->
+//                        mavenArtifactRepository.name
+                }
+                repositoryHandler.ivy {}
+        }
+        //配置工程仓库“插件”依赖地址
+        scriptHandler.dependencies {
+        }
+
+
+}
+
+
+
+task taskAAAAAA {
+    doLast {
+        this.tasks.findAll {
+            task ->
+                println "-----------"+task.name
+                //依赖所有'lib'开头的task
+                return task.name.startsWith('lib')
+        }
+    }
+}
+
+
+
+
+
+

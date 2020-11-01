@@ -1,0 +1,9 @@
+dependencies {
+    compile project(":model")
+}
+
+//getAllprojects().eachWithIndex{
+//    Project project, int index ->
+//        println "---- Project :${project.name}"
+//}
+

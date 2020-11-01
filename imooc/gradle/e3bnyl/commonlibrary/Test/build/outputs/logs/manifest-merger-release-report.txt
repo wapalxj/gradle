@@ -1,0 +1,138 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\f49bc9af4cd231090b9bc70ab530ebac\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:17:1-27:12
+MERGED from [io.reactivex:rxandroid:1.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\bcf54fe371b1c2cea909155702a53000\AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxbinding-0.2.0.aar\f48fc897f3be3699c96efa65ea500ba9\AndroidManifest.xml:2:1-8:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\99240ac908b78318d0ce34dba3a9d062\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\b219feefcf48e8f397214066e3e8472a\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\254cd0a6f4ce0e9f8f11e703137f4eee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\637e46bf6092ca5bfbb5407b4bced337\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\0281a931f5ed50cbdc6af961a85f0bac\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\d3c3f72a325341337f6b7e7642f19611\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\51e49c7ef9f40b4df97c618fbbc35a27\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\d9f21a23e7dec934c90c05cabedec3f7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9b6342a63f30bbea8afa42f3c3eda202\AndroidManifest.xml:17:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:1-27:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\b219feefcf48e8f397214066e3e8472a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\b219feefcf48e8f397214066e3e8472a\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\254cd0a6f4ce0e9f8f11e703137f4eee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\254cd0a6f4ce0e9f8f11e703137f4eee\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\637e46bf6092ca5bfbb5407b4bced337\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\637e46bf6092ca5bfbb5407b4bced337\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\0281a931f5ed50cbdc6af961a85f0bac\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\0281a931f5ed50cbdc6af961a85f0bac\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\d3c3f72a325341337f6b7e7642f19611\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\d3c3f72a325341337f6b7e7642f19611\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\51e49c7ef9f40b4df97c618fbbc35a27\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\51e49c7ef9f40b4df97c618fbbc35a27\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\d9f21a23e7dec934c90c05cabedec3f7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\d9f21a23e7dec934c90c05cabedec3f7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9b6342a63f30bbea8afa42f3c3eda202\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9b6342a63f30bbea8afa42f3c3eda202\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:9:9-41
+	android:icon
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:6:9-52
+activity#com.imooc.viewpagertest.webp.WebpTestActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:12:9-13:20
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:12:19-56
+activity#com.imooc.viewpagertest.retrofit.RetrofitTestActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:14:9-22:20
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:16:13-56
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:15:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:17:13-21:29
+action#android.intent.action.MAIN
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:18:25-66
+category#android.intent.category.LAUNCHER
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:20:17-77
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:20:27-74
+uses-permission#android.permission.INTERNET
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:25:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml:26:22-78
+uses-sdk
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\f49bc9af4cd231090b9bc70ab530ebac\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\f49bc9af4cd231090b9bc70ab530ebac\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:21:5-23:78
+MERGED from [io.reactivex:rxandroid:1.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\bcf54fe371b1c2cea909155702a53000\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\bcf54fe371b1c2cea909155702a53000\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxbinding-0.2.0.aar\f48fc897f3be3699c96efa65ea500ba9\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:0.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\rxbinding-0.2.0.aar\f48fc897f3be3699c96efa65ea500ba9\AndroidManifest.xml:6:5-44
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\99240ac908b78318d0ce34dba3a9d062\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\99240ac908b78318d0ce34dba3a9d062\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\b219feefcf48e8f397214066e3e8472a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\b219feefcf48e8f397214066e3e8472a\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\254cd0a6f4ce0e9f8f11e703137f4eee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\254cd0a6f4ce0e9f8f11e703137f4eee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\637e46bf6092ca5bfbb5407b4bced337\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\637e46bf6092ca5bfbb5407b4bced337\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\0281a931f5ed50cbdc6af961a85f0bac\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\0281a931f5ed50cbdc6af961a85f0bac\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\d3c3f72a325341337f6b7e7642f19611\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\d3c3f72a325341337f6b7e7642f19611\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\51e49c7ef9f40b4df97c618fbbc35a27\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\51e49c7ef9f40b4df97c618fbbc35a27\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\d9f21a23e7dec934c90c05cabedec3f7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\d9f21a23e7dec934c90c05cabedec3f7\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9b6342a63f30bbea8afa42f3c3eda202\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9b6342a63f30bbea8afa42f3c3eda202\AndroidManifest.xml:21:5-23:58
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\29cba4bee5c03b96ecbcbb4daf7734c1\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\Test\src\main\AndroidManifest.xml

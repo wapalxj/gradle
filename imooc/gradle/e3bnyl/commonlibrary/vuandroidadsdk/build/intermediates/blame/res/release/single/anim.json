@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_out.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_top.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_bottom.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_in_top.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_exit.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_slide_out_bottom.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_fade_in.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_popup_enter.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "F:\\Android\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.0.aar\\29cba4bee5c03b96ecbcbb4daf7734c1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\build\\intermediates\\res\\merged\\release\\anim\\xadsdk_anim_ad_loading.xml",
+        "source": "G:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\vuandroidadsdk\\src\\main\\res\\anim\\xadsdk_anim_ad_loading.xml"
+    }
+]

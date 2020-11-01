@@ -1,0 +1,7 @@
+rootProject.name = 'todo_multiple'
+include 'model'
+include 'repository'
+include 'web'
+
+println '初始化阶段开始执行'+getClass()
+

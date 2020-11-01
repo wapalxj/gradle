@@ -1,0 +1,26 @@
+//dependencies {
+//}
+
+
+//文件定位API
+def getContent(String path){
+    try{
+        def file=file{path}
+        return file.text//文件内容
+    }catch (GradleException e){
+        e.printStackTrace()
+    }
+}
+//println getContent("src/main/java/com/vero/gradle/todo/TodoItem.java")
+
+//文件copy
+copy{
+    from file('youdo.jks')
+    into getRootProject().getBuildDir()
+}
+
+ext{
+    addr='322'
+    name='mgh'
+}
+

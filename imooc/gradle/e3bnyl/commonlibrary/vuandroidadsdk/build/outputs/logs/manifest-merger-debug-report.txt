@@ -1,0 +1,47 @@
+-- Merging decision tree log ---
+manifest
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:2:5-39
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:1:1-13:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:3:5-63
+application
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:5:5-11:19
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:7:9-41
+	android:allowBackup
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:6:9-35
+activity#com.youdu.activity.AdBrowserActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:10:9-72
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml:10:19-70
+uses-sdk
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\src\main\AndroidManifest.xml

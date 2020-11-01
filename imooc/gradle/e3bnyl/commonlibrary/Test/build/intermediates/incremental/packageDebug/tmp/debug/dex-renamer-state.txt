@@ -1,0 +1,4 @@
+#Thu May 24 22:11:13 CST 2018
+base.0=G\:\\GIT\\gradle\\imooc\\gradle\\e3bnyl\\commonlibrary\\Test\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex

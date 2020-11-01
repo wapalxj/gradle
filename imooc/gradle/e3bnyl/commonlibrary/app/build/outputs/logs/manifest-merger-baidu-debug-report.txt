@@ -1,0 +1,780 @@
+-- Merging decision tree log ---
+meta-data#UMENG_CHANNEL
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:309:5-311:48
+	android:value
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:311:7-45
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:310:7-35
+manifest
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+MERGED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-17:12
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\a2ef699d7d98ed1d88e8a0aeed2db70a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.android.support:multidex:1.0.2] F:\Android\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\5c5c988f19bbda4e740df2305e898e06\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:17:1-27:12
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-68:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] F:\Android\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\0e58632568e903176e5c7e9863fd83d8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.r0adkll:slidableactivity:2.0.5] F:\Android\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.5.aar\c2151b19407de20609157253d40efcc3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.alipay.euler:andfix:0.5.0] F:\Android\.gradle\caches\transforms-1\files-1.1\andfix-0.5.0.aar\bc163245c3a39c65d6de1dfdb588a0c0\AndroidManifest.xml:2:1-14:12
+MERGED from [com.orhanobut:logger:2.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\logger-2.2.0.aar\d37a9c9b6fb17fe28fcbaf30176fbbf0\AndroidManifest.xml:2:1-8:12
+MERGED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:2:1-23:12
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\5be2c94b0e5f861f0b16e675a26e8b3e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\4ebd3e0d5e6b852a8cab31d2badb53a7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\45168c47c3ed2bad2ca3a847161f98d9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\c2644b91f0ab1d942d910850647b494e\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\4fce4557969addc16be3213600a317ab\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\16c70caf0057832f9c1af4fdfd228c1d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\815f51f3c1650d34904433b4a54c8543\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\06893116cb454c7fb7229ae2e67779a2\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\c7f6ca74e29f95b9e19921bece0016a3\AndroidManifest.xml:17:1-27:12
+MERGED from [com.tencent.tinker:tinker-android-loader:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.7.7.aar\5cfc35674df4a9f82689051956b14e61\AndroidManifest.xml:2:1-13:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+	package
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:3:3-22
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:1-321:12
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:5:3-65
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:5:20-62
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:6:3-74
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:6:20-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:7:3-77
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:7:20-74
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:8:3-78
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:8:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:9:3-79
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:9:20-76
+uses-permission#android.permission.VIBRATE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:10:3-64
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:10:20-61
+uses-permission#android.permission.CAMERA
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:11:3-63
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:11:20-60
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:12:3-77
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:12:20-74
+uses-permission#android.permission.WAKE_LOCK
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:13:3-66
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:13:20-63
+uses-permission#android.permission.FLASHLIGHT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:14:3-67
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:14:20-64
+uses-feature#android.hardware.camera
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:16:3-58
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:16:17-55
+uses-feature#android.hardware.camera.autofocus
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:17:3-68
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:17:17-65
+uses-permission#android.permission.GET_TASKS
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:20:3-66
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:20:20-63
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:24:3-74
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:24:20-71
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:26:3-73
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:26:20-70
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:27:3-72
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-74
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-74
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:27:20-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:28:3-69
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-71
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-71
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:28:20-66
+permission#com.youdu.permission.JPUSH_MESSAGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:31:3-33:43
+	android:protectionLevel
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:33:5-40
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:32:5-54
+uses-permission#com.youdu.permission.JPUSH_MESSAGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:35:3-72
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:35:20-69
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:36:3-77
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:36:20-74
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:42:3-71
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:42:20-68
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:44:3-82
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:44:20-79
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:47:3-76
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:47:20-73
+uses-permission#android.permission.NFC
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:50:3-60
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:50:20-57
+uses-feature#android.hardware.nfc
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:52:3-54:31
+	android:required
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:54:5-28
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:53:5-40
+application
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:56:3-319:17
+MERGED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:25:5-20
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-66:19
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:5-66:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] F:\Android\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\0e58632568e903176e5c7e9863fd83d8\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] F:\Android\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\0e58632568e903176e5c7e9863fd83d8\AndroidManifest.xml:9:5-20
+MERGED from [com.r0adkll:slidableactivity:2.0.5] F:\Android\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.5.aar\c2151b19407de20609157253d40efcc3\AndroidManifest.xml:9:5-20
+MERGED from [com.r0adkll:slidableactivity:2.0.5] F:\Android\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.5.aar\c2151b19407de20609157253d40efcc3\AndroidManifest.xml:9:5-20
+MERGED from [com.alipay.euler:andfix:0.5.0] F:\Android\.gradle\caches\transforms-1\files-1.1\andfix-0.5.0.aar\bc163245c3a39c65d6de1dfdb588a0c0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.alipay.euler:andfix:0.5.0] F:\Android\.gradle\caches\transforms-1\files-1.1\andfix-0.5.0.aar\bc163245c3a39c65d6de1dfdb588a0c0\AndroidManifest.xml:11:5-12:19
+MERGED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:9:5-21:19
+MERGED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:9:5-21:19
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\4ebd3e0d5e6b852a8cab31d2badb53a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\4ebd3e0d5e6b852a8cab31d2badb53a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\45168c47c3ed2bad2ca3a847161f98d9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\45168c47c3ed2bad2ca3a847161f98d9\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\c2644b91f0ab1d942d910850647b494e\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\c2644b91f0ab1d942d910850647b494e\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\4fce4557969addc16be3213600a317ab\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\4fce4557969addc16be3213600a317ab\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\16c70caf0057832f9c1af4fdfd228c1d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\16c70caf0057832f9c1af4fdfd228c1d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\815f51f3c1650d34904433b4a54c8543\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\815f51f3c1650d34904433b4a54c8543\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\06893116cb454c7fb7229ae2e67779a2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\06893116cb454c7fb7229ae2e67779a2\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\c7f6ca74e29f95b9e19921bece0016a3\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\c7f6ca74e29f95b9e19921bece0016a3\AndroidManifest.xml:25:5-20
+MERGED from [com.tencent.tinker:tinker-android-loader:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.7.7.aar\5cfc35674df4a9f82689051956b14e61\AndroidManifest.xml:10:5-11:19
+MERGED from [com.tencent.tinker:tinker-android-loader:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.7.7.aar\5cfc35674df4a9f82689051956b14e61\AndroidManifest.xml:10:5-11:19
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:60:5-37
+	android:icon
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:59:5-39
+	android:allowBackup
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:58:5-31
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:61:5-36
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:57:5-58
+activity#com.youdu.activity.LoadingActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:62:5-72:16
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:64:7-43
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:66:7-58
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:65:7-41
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:63:7-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:67:7-71:23
+action#android.intent.action.MAIN
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:68:9-61
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:68:17-58
+category#android.intent.category.LAUNCHER
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:70:9-69
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:70:19-66
+activity#com.youdu.activity.GuideActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:73:5-76:61
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:75:7-43
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:76:7-58
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:74:7-45
+activity#com.youdu.activity.HomeActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:77:5-81:61
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:80:7-43
+	android:launchMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:79:7-38
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:81:7-58
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:78:7-44
+activity#com.youdu.activity.SettingActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:82:5-84:56
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:84:7-53
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:83:7-47
+activity#com.youdu.activity.SearchActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:85:5-87:46
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:87:7-43
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:86:7-46
+activity#com.youdu.activity.LoginActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:88:5-91:61
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:90:7-43
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:91:7-58
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:89:7-45
+activity#com.youdu.activity.PhotoViewActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:92:5-94:46
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:94:7-43
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:93:7-49
+activity#com.youdu.activity.MessageActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:95:5-97:46
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:97:7-43
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:96:7-47
+activity#com.youdu.activity.CourseDetailActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:98:5-101:46
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:101:7-43
+	android:launchMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:100:7-37
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:99:7-52
+service#com.youdu.service.UpdateProductService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:103:5-61
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:103:14-58
+service#com.youdu.network.mina.MinaService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:104:5-57
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:104:14-54
+service#com.youdu.service.update.UpdateService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:105:5-61
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:105:14-58
+service#com.youdu.service.andfix.AndFixService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:108:5-111:42
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:110:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:111:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:109:7-51
+service#com.youdu.tinker.CustomResultService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:114:5-117:34
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:116:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:117:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:115:7-49
+service#com.youdu.service.notification.CommonNotificationListenerService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:120:5-127:15
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:122:7-39
+	android:permission
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:123:7-81
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:121:7-77
+intent-filter#action:name:android.service.notification.NotificationListenerService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:124:7-126:23
+action#android.service.notification.NotificationListenerService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:125:9-91
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:125:17-88
+service#com.youdu.service.notification.WeChatAccessibilityService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:129:5-139:15
+	android:label
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:131:7-39
+	android:permission
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:132:7-73
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:130:7-70
+intent-filter#action:name:android.accessibilityservice.AccessibilityService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:133:7-135:23
+action#android.accessibilityservice.AccessibilityService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:134:9-84
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:134:17-81
+meta-data#android.accessibilityservice
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:136:7-138:61
+	android:resource
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:138:9-58
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:137:9-52
+activity#com.youdu.zxing.app.CaptureActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:143:5-147:57
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:146:7-43
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:147:7-54
+	android:configChanges
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:145:7-57
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:144:7-48
+activity#com.mob.tools.MobUIShell
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:150:5-166:16
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:153:7-43
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:155:7-61
+	android:configChanges
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:152:7-68
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:154:7-66
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:151:7-46
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:tencent1104917113
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:158:7-165:23
+data
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:159:9-52
+	android:scheme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:159:15-49
+action#android.intent.action.VIEW
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:161:9-61
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:161:17-58
+category#android.intent.category.BROWSABLE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:163:9-70
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:163:19-67
+category#android.intent.category.DEFAULT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:164:9-68
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:164:19-65
+activity#com.youdu.wxapi.WXEntryActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:168:5-173:69
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:172:7-43
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:171:7-30
+	android:configChanges
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:170:7-68
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:173:7-66
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:169:7-44
+activity#com.youdu.nfc.NFCard
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:176:5-194:16
+	android:screenOrientation
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:179:7-43
+	android:launchMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:178:7-38
+	android:windowSoftInputMode
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:180:7-72
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:177:7-33
+intent-filter#action:name:android.nfc.action.TECH_DISCOVERED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:181:7-183:23
+action#android.nfc.action.TECH_DISCOVERED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:182:9-69
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:182:17-66
+meta-data#android.nfc.action.TECH_DISCOVERED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:185:7-187:51
+	android:resource
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:187:9-48
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:186:9-58
+intent-filter#action:name:android.nfc.action.TAG_DISCOVERED+category:name:android.intent.category.DEFAULT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:189:7-193:23
+action#android.nfc.action.TAG_DISCOVERED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:190:9-68
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:190:17-65
+activity#com.youdu.ar.ArActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:196:5-198:90
+	android:configChanges
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:198:7-87
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:197:7-36
+activity#cn.jpush.android.ui.PushActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:201:5-212:16
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:204:7-31
+	android:configChanges
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:203:7-57
+	android:theme
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:205:7-54
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:202:7-54
+intent-filter#action:name:cn.jpush.android.ui.PushActivity+category:name:android.intent.category.DEFAULT+category:name:com.youdu
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:206:7-211:23
+action#cn.jpush.android.ui.PushActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:207:9-67
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:207:17-64
+category#com.youdu
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:210:9-46
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:210:19-43
+service#cn.jpush.android.service.DownloadService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:214:5-217:34
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:216:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:217:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:215:7-62
+service#cn.jpush.android.service.PushService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:221:5-231:15
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:223:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:224:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:222:7-58
+intent-filter#action:name:cn.jpush.android.intent.PUSH_TIME+action:name:cn.jpush.android.intent.PushService+action:name:cn.jpush.android.intent.REGISTER+action:name:cn.jpush.android.intent.REPORT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:225:7-230:23
+action#cn.jpush.android.intent.REGISTER
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:226:9-67
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:226:17-64
+action#cn.jpush.android.intent.REPORT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:227:9-65
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:227:17-62
+action#cn.jpush.android.intent.PushService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:228:9-70
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:228:17-67
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:229:9-68
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:229:17-65
+service#cn.jpush.android.service.DaemonService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:235:5-244:15
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:237:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:238:7-30
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:236:7-60
+intent-filter#action:name:cn.jpush.android.intent.DaemonService+category:name:com.youdu
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:239:7-243:23
+action#cn.jpush.android.intent.DaemonService
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:240:9-72
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:240:17-69
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:247:5-267:16
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:249:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:250:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:248:7-59
+intent-filter#action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+category:name:com.youdu
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:251:7-255:23
+	android:priority
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:251:22-45
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:252:9-86
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:252:17-83
+intent-filter#action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:256:7-259:23
+action#android.intent.action.USER_PRESENT
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:257:9-69
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:257:17-66
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:258:9-71
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:258:17-68
+intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:261:7-266:23
+action#android.intent.action.PACKAGE_ADDED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:262:9-70
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:262:17-67
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:263:9-72
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:263:17-69
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:270:5-272:34
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:272:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:271:7-60
+activity#com.youdu.jpush.PushMessageActivity
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:275:5-59
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:275:15-56
+receiver#com.youdu.jpush.JPushReceiver
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:277:5-292:16
+	android:enabled
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:279:7-29
+	android:exported
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:280:7-31
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:278:7-42
+intent-filter#action:name:cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+action:name:cn.jpush.android.intent.CONNECTION+action:name:cn.jpush.android.intent.MESSAGE_RECEIVED+action:name:cn.jpush.android.intent.NOTIFICATION_OPENED+action:name:cn.jpush.android.intent.NOTIFICATION_RECEIVED+action:name:cn.jpush.android.intent.REGISTRATION+action:name:cn.jpush.android.intent.UNREGISTRATION+category:name:com.youdu
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:281:7-291:23
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:282:9-71
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:282:17-68
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:283:9-73
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:283:17-70
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:284:9-75
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:284:17-72
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:285:9-80
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:285:17-77
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:286:9-78
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:286:17-75
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:287:9-83
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:287:17-80
+action#cn.jpush.android.intent.CONNECTION
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:288:9-69
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:288:17-66
+meta-data#JPUSH_CHANNEL
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:296:5-298:43
+	android:value
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:298:7-40
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:297:7-35
+meta-data#JPUSH_APPKEY
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:299:5-301:50
+	android:value
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:301:7-47
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:300:7-34
+meta-data#UMENG_APPKEY
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:306:5-308:50
+	android:value
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:308:7-47
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:307:7-34
+meta-data#IFLYTEK_APPKEY
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:312:5-314:46
+	android:value
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:314:7-43
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:313:7-36
+meta-data#IFLYTEK_CHANNEL
+ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:315:5-317:38
+	android:value
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:317:7-35
+	android:name
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml:316:7-37
+uses-sdk
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+MERGED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\a2ef699d7d98ed1d88e8a0aeed2db70a\AndroidManifest.xml:6:5-8:41
+MERGED from [io.realm:realm-android-library:4.3.3] F:\Android\.gradle\caches\transforms-1\files-1.1\realm-android-library-4.3.3.aar\a2ef699d7d98ed1d88e8a0aeed2db70a\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:multidex:1.0.2] F:\Android\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\5c5c988f19bbda4e740df2305e898e06\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] F:\Android\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\5c5c988f19bbda4e740df2305e898e06\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:21:5-23:78
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] F:\Android\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\0e58632568e903176e5c7e9863fd83d8\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] F:\Android\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\0e58632568e903176e5c7e9863fd83d8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.r0adkll:slidableactivity:2.0.5] F:\Android\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.5.aar\c2151b19407de20609157253d40efcc3\AndroidManifest.xml:7:5-44
+MERGED from [com.r0adkll:slidableactivity:2.0.5] F:\Android\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.5.aar\c2151b19407de20609157253d40efcc3\AndroidManifest.xml:7:5-44
+MERGED from [com.alipay.euler:andfix:0.5.0] F:\Android\.gradle\caches\transforms-1\files-1.1\andfix-0.5.0.aar\bc163245c3a39c65d6de1dfdb588a0c0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alipay.euler:andfix:0.5.0] F:\Android\.gradle\caches\transforms-1\files-1.1\andfix-0.5.0.aar\bc163245c3a39c65d6de1dfdb588a0c0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:logger:2.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\logger-2.2.0.aar\d37a9c9b6fb17fe28fcbaf30176fbbf0\AndroidManifest.xml:6:5-43
+MERGED from [com.orhanobut:logger:2.2.0] F:\Android\.gradle\caches\transforms-1\files-1.1\logger-2.2.0.aar\d37a9c9b6fb17fe28fcbaf30176fbbf0\AndroidManifest.xml:6:5-43
+MERGED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:5:5-7:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\5be2c94b0e5f861f0b16e675a26e8b3e\AndroidManifest.xml:7:5-43
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] F:\Android\.gradle\caches\transforms-1\files-1.1\relinker-1.2.2.aar\5be2c94b0e5f861f0b16e675a26e8b3e\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\4ebd3e0d5e6b852a8cab31d2badb53a7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\4ebd3e0d5e6b852a8cab31d2badb53a7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\45168c47c3ed2bad2ca3a847161f98d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\45168c47c3ed2bad2ca3a847161f98d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\c2644b91f0ab1d942d910850647b494e\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\c2644b91f0ab1d942d910850647b494e\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\4fce4557969addc16be3213600a317ab\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\4fce4557969addc16be3213600a317ab\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\16c70caf0057832f9c1af4fdfd228c1d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\16c70caf0057832f9c1af4fdfd228c1d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\815f51f3c1650d34904433b4a54c8543\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\815f51f3c1650d34904433b4a54c8543\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\06893116cb454c7fb7229ae2e67779a2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\06893116cb454c7fb7229ae2e67779a2\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\c7f6ca74e29f95b9e19921bece0016a3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\c7f6ca74e29f95b9e19921bece0016a3\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tencent.tinker:tinker-android-loader:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.7.7.aar\5cfc35674df4a9f82689051956b14e61\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.tinker:tinker-android-loader:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.7.7.aar\5cfc35674df4a9f82689051956b14e61\AndroidManifest.xml:6:5-8:41
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.0.0] F:\Android\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\3cd100b8e24b9b8be225d6b8852e7e2c\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		ADDED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+		INJECTED from G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\app\src\main\AndroidManifest.xml
+activity#com.youdu.activity.AdBrowserActivity
+ADDED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:9-73
+	android:name
+		ADDED from [:vuandroidadsdk] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\vuandroidadsdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:19-70
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-80
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-77
+uses-permission#android.permission.READ_SYNC_SETTINGS
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:5-77
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:22-74
+uses-permission#android.permission.WRITE_SYNC_SETTINGS
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:22-75
+service#com.lianjia.pullalive.accountsync.AuthenticationService
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:9-31:19
+	android:exported
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-83
+intent-filter#action:name:android.accounts.AccountAuthenticator
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:24:13-26:29
+action#android.accounts.AccountAuthenticator
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:17-80
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:25:25-77
+meta-data#android.accounts.AccountAuthenticator
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:13-30:57
+	android:resource
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:30:17-54
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:29:17-69
+service#com.lianjia.pullalive.accountsync.SyncService
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:9-43:19
+	android:label
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:13-55
+	android:exported
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:13-73
+intent-filter#action:name:android.content.SyncAdapter
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-38:29
+action#android.content.SyncAdapter
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:17-70
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:37:25-67
+meta-data#android.content.SyncAdapter
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:40:13-42:55
+	android:resource
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:42:17-52
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:41:17-59
+provider#com.lianjia.pullalive.accountsync.SyncProvider
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:45:9-50:39
+	android:authorities
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:47:13-69
+	android:label
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:49:13-55
+	android:syncable
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:50:13-36
+	android:exported
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:46:13-74
+service#com.lianjia.pullalive.jobscheduler.PLJobService
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:52:9-56:72
+	android:enabled
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:54:13-36
+	android:exported
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:55:13-37
+	android:permission
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:56:13-69
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:53:13-75
+service#com.lianjia.pullalive.nl.NLService
+ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:57:9-65:19
+	android:label
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:60:13-55
+	android:exported
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:59:13-37
+	android:permission
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:61:13-87
+	android:name
+		ADDED from [:lib_pullalive] G:\GIT\gradle\imooc\gradle\e3bnyl\commonlibrary\lib_pullalive\build\intermediates\manifests\full\debug\AndroidManifest.xml:58:13-62
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:10:9-13:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:13:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:11:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:14:9-17:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:17:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:15:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.7.7] F:\Android\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.7.7.aar\2a032da4b09207afc4a12c9590d87fad\AndroidManifest.xml:19:13-85

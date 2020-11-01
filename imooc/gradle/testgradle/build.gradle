@@ -1,0 +1,109 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+
+apply from:this.file{'common.gradle'}
+
+buildscript {
+    repositories {
+        jcenter()
+        maven { url 'https://maven.google.com'}
+        google()
+
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.2'
+        classpath "io.realm:realm-gradle-plugin:4.3.3" //添加realm插件
+        classpath "com.tencent.tinker:tinker-patch-gradle-plugin:1.7.7" //引入Tinker
+        classpath 'cz.malohlava:visteg:1.0.3' //依赖关系图生成插件
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        google()
+        maven { url 'https://maven.google.com'}
+    }
+}
+
+//task clean(type: Delete) {
+//    delete rootProject.buildDir
+//}
+
+
+//通过路径获取某个子project--获取app
+//project('app') {
+//    Project project ->
+//        println "${project.name}"
+//}
+
+
+//在父(root)里为app做一些配置
+//project('app') {
+//    Project project ->
+//        //此闭包内容可以与app的build.gralde完全一样
+//        apply plugin: 'com.android.application'
+//        group 'com.vero'
+//        version '1.0'
+//        dependencies {}
+//        android {}
+//}
+
+
+//配置当前project和所有其子project
+allprojects {
+    group 'com.vero'
+    version '1.0'
+}
+//println project('Test').group
+
+
+//不包括当前结点project，只包括子project
+//subprojects {
+//    Project project->
+//        println "${project.name}--->${project.plugins}"
+//        //引入publishToMaven.gradle,让其拥有里面的功能
+//        if (project.plugins.hasPlugin('com.android.library')) {
+//            //如果是lib project，则引入发布功能
+//            apply from:'../publishToMaven.gradle'
+//        }
+//}
+
+
+//task dooooo{
+//    doLast {
+//        subprojects {
+//            Project project->
+//                //引入publishToMaven.gradle,让其拥有里面的功能
+//                if (project.plugins.hasPlugin('com.android.library')) {
+//                    //如果是lib project，则引入发布功能
+//                    println project.plugins
+//                }
+//
+//        }
+//    }
+//}
+
+
+task taskAAAAAA {
+    doLast {
+        this.tasks.findAll {
+            task ->
+                println "-----------"+task.name
+                //依赖所有'lib'开头的task
+                return task.name.startsWith('lib')
+        }
+    }
+}
+
+
+//this.project.afterEvaluate {
+//    project ->
+//        def buildTask = project.tasks.getByName('build')
+//        if (buildTask == null) {
+//            throw new GradleException('the build task is not found')
+//        }
+//        buildTask.doLast {
+//            writeTask.execute()
+//        }
+//}
